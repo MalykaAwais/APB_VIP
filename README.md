@@ -1,23 +1,19 @@
 # APB_VIP
-# Verification of APB VIP
+## Verification of APB VIP
 
 ---
-<h2 align="left">Overview</h2>
+
+## Overview
 This project focuses on the verification of the Advanced Peripheral Bus (APB) using the Universal Verification Methodology (UVM). It aims to ensure effective communication between low-bandwidth peripherals in complex System-on-Chip (SoC) architectures.
----
 
 ---
 
-<h2 align="left">Team Members</h2>
+## Team Members
+- Malyka Awais (Team Leader)  
+- Muhammad Waqar (Team Member)  
+- Malik Nauman (Team Member)  
 
-- **Malyka Awais** (Team Leader)  
-
-- **Muhammad Waqar** (Team Member)
-
-- **Malik Nauman** (Team Member)
-
-<h3>Supervised By: Muhammad Bilal</h3>
-
+**Supervised By:** Muhammad Bilal
 
 ---
 
@@ -45,8 +41,7 @@ The verification plan consists of a series of tests, including:
 
 ---
 
-<h2 align="left">Technologies & Tools</h2>
-
+## Technologies & Tools
 ![SystemVerilog](https://img.shields.io/badge/-SystemVerilog-3776AB?style=flat-square&logo=systemverilog&logoColor=white)
 ![UVM](https://img.shields.io/badge/-UVM-3776AB?style=flat-square&logo=uvm&logoColor=white)
 ![Cadence Xcelium](https://img.shields.io/badge/-Cadence_Xcelium-00599C?style=flat-square&logo=cadence&logoColor=white)
@@ -61,5 +56,3 @@ All assertions passed successfully. The coverage report indicates:
 
 ## Conclusion
 The project successfully verified the master and slave UVCs of the APB protocol, demonstrating a flexible and reusable VIP design. The integration of optional features enhances the capabilities of the verification environment.
-
-

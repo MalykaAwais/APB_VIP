@@ -1,0 +1,8 @@
+APB_SLAVE directory has all code for slave uvc
+
+Rest of the code including master and scoreboard etc are present in sv
+
+And top level files in tb folder
+
+Incase of any error due to directory structure, just keep the CODE folder in the outermost directory e.g DOCUMENTS of your directory structure
+This is how it is adjusted in file.f

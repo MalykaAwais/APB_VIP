@@ -1,0 +1,50 @@
+s1(17Dec2024:20:05:53):  xrun -f file.f 
+s2(17Dec2024:20:08:21):  xrun -f file.f 
+s3(17Dec2024:20:08:45):  xrun -f file.f 
+s4(17Dec2024:20:09:24):  xrun -f file.f 
+s5(17Dec2024:20:16:56):  xrun -f file.f 
+s6(17Dec2024:20:18:50):  xrun -f file.f 
+s7(17Dec2024:20:22:10):  xrun -f file.f 
+s8(17Dec2024:20:22:23):  xrun -f file.f 
+s9(17Dec2024:20:24:46):  xrun -f file.f 
+s10(17Dec2024:20:28:58):  xrun -f file.f 
+s11(17Dec2024:20:33:07):  xrun -f file.f 
+s12(17Dec2024:20:36:59):  xrun -f file.f 
+s13(17Dec2024:20:37:34):  xrun -f file.f 
+s14(17Dec2024:20:41:50):  xrun -f file.f 
+s15(17Dec2024:20:44:30):  xrun -f file.f 
+s16(17Dec2024:20:47:54):  xrun -f file.f 
+s17(17Dec2024:20:48:51):  xrun -f file.f 
+s18(17Dec2024:21:26:17):  xrun -f file.f 
+s19(17Dec2024:21:27:12):  xrun -f file.f 
+s20(17Dec2024:21:27:26):  xrun -f file.f -gui 
+s21(17Dec2024:21:57:54):  xrun -f file.f -gui 
+s22(17Dec2024:21:59:59):  xrun -f file.f -gui 
+s23(17Dec2024:22:00:43):  xrun -f file.f -gui 
+s24(17Dec2024:22:01:48):  xrun -f file.f -gui 
+s25(17Dec2024:22:01:51):  xrun -f file.f 
+s26(17Dec2024:22:02:19):  xrun -f file.f -coverage all 
+s27(17Dec2024:22:03:15):  xrun -f file.f -coverage all 
+s28(17Dec2024:22:06:48):  xrun -f file.f -coverage all 
+s29(17Dec2024:22:08:55):  xrun -f file.f -coverage all 
+s30(17Dec2024:22:11:59):  xrun -f file.f -coverage all 
+s31(17Dec2024:22:19:58):  xrun -f file.f -coverage all +coveropt -goal 70 
+s32(17Dec2024:22:20:46):  xrun -f file.f -coverage all 
+s33(17Dec2024:22:22:47):  xrun -f file.f -coverage all 
+s34(17Dec2024:22:25:23):  xrun -f file.f -coverage all 
+s35(17Dec2024:22:33:54):  xrun -f file.f -coverage all 
+s36(17Dec2024:22:36:53):  xrun -f file.f -coverage all 
+s37(17Dec2024:22:46:13):  xrun -f file.f -coverage all 
+s38(17Dec2024:22:50:00):  xrun -f file.f -coverage all 
+s39(17Dec2024:22:50:26):  xrun -f file.f -coverage all 
+s40(17Dec2024:22:50:36):  xrun -f file.f -coverage all 
+s41(17Dec2024:22:50:47):  xrun -f file.f -coverage all 
+s42(17Dec2024:22:51:25):  xrun -f file.f -coverage all 
+s43(17Dec2024:22:53:17):  xrun -f file.f -coverage all 
+s44(17Dec2024:22:54:38):  xrun -f file.f -coverage all 
+s45(17Dec2024:22:57:04):  xrun -f file.f -coverage all 
+s46(18Dec2024:00:06:50):  xrun -f file.f -coverage all 
+s47(18Dec2024:00:07:48):  xrun -f file.f 
+s48(18Dec2024:00:10:33):  xrun -f file.f -gui 
+s49(18Dec2024:00:16:47):  xrun -f file.f -gui 
+s50(18Dec2024:00:19:15):  xrun -f file.f 

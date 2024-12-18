@@ -1,0 +1,650 @@
+xrun(64): 23.09-s006: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	23.09-s006: Started on Dec 18, 2024 at 00:19:14 PKT
+xrun
+	-f file.f
+		-64
+		-uvmhome /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d
+		-incdir ../sv
+		-incdir ../APB_slave/sv
+		../sv/parameters.sv
+		../sv/apb_pkg.sv
+		../APB_slave/sv/apb_slave_pkg.sv
+		../sv/apb_interface.sv
+		hw_top.sv
+		tb_top.sv
+		+UVM_TESTNAME=base_test
+		+UVM_VERBOSITY=UVM_FULL
+		+SVSEED=random
+		-access +rwc
+		+gui
+		+ENBLLV
+		-timescale 1ns/1ns
+
+   User defined plus("+") options:
+	+UVM_VERBOSITY=UVM_FULL
+	+ENBLLV
+
+xmsim: *W,NOMTDGUI: Multi-Threaded Dumping is disabled for interactive debug mode.
+SVSEED set randomly from command line: -1797539719
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /home/cc/mnt/XCELIUM2309/tools/xcelium/files/xmsimrc
+xcelium> source /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/additions/sv/files/tcl/uvm_sim.tcl
+xcelium> run
+----------------------------------------------------------------
+CDNS-UVM-1.1d (23.09-s006)
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO apb_test_lib.sv(8) @ 0: uvm_test_top [Test Class] Inside Constructor
+UVM_INFO @ 0: reporter [RNTST] Running test base_test...
+UVM_INFO apb_test_lib.sv(14) @ 0: uvm_test_top [Test Class] Build phase
+UVM_INFO apb_tb.sv(17) @ 0: uvm_test_top.tb [Testbench_class] Inside Constructor
+UVM_INFO ../sv/apb_master_env.sv(14) @ 0: uvm_test_top.tb.master_uvc [ENV_CLASS] Inside Constructor
+UVM_INFO ../APB_slave/sv/apb_slave_env.sv(14) @ 0: uvm_test_top.tb.slave_uvc [Slave_ENV_CLASS] Inside Constructor
+UVM_INFO apb_mcsequencer.sv(14) @ 0: uvm_test_top.tb.mc_seqr [Multichannel Sequencer Class] Inside Constructor
+UVM_INFO apb_tb.sv(30) @ 0: uvm_test_top.tb [apb_tb] Build phase
+UVM_INFO ../sv/apb_master_env.sv(24) @ 0: uvm_test_top.tb.master_uvc [ENV_CLASS] Build Phase!
+UVM_INFO ../sv/apb_master_agent.sv(23) @ 0: uvm_test_top.tb.master_uvc.agent [AGENT_CLASS] Inside Constructor
+UVM_INFO ../sv/apb_master_agent.sv(34) @ 0: uvm_test_top.tb.master_uvc.agent [AGENT_CLASS] Build Phase!
+UVM_INFO ../sv/apb_master_driver.sv(70) @ 0: uvm_test_top.tb.master_uvc.agent.driver [DRIVER_CLASS] Inside Constructor
+UVM_INFO ../sv/apb_master_monitor.sv(63) @ 0: uvm_test_top.tb.master_uvc.agent.monitor [MONITOR_CLASS] Inside Constructor
+UVM_INFO ../sv/apb_master_sequencer.sv(13) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [SEQUENCER_CLASS] Inside Constructor
+UVM_INFO ../sv/apb_master_driver.sv(79) @ 0: uvm_test_top.tb.master_uvc.agent.driver [DRIVER_CLASS] Build Phase!
+UVM_INFO ../sv/apb_master_monitor.sv(73) @ 0: uvm_test_top.tb.master_uvc.agent.monitor [MONITOR_CLASS] Build Phase!
+UVM_INFO ../sv/apb_master_sequencer.sv(23) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [SEQUENCER_CLASS] Build Phase!
+UVM_INFO ../APB_slave/sv/apb_slave_env.sv(24) @ 0: uvm_test_top.tb.slave_uvc [Slave_ENV_CLASS] Build Phase!
+UVM_INFO ../APB_slave/sv/apb_slave_agent.sv(23) @ 0: uvm_test_top.tb.slave_uvc.agent [Slave_AGENT_CLASS] Inside Constructor
+UVM_INFO ../APB_slave/sv/apb_slave_agent.sv(34) @ 0: uvm_test_top.tb.slave_uvc.agent [Slave_AGENT_CLASS] Build Phase!
+UVM_INFO ../APB_slave/sv/apb_slave_driver.sv(30) @ 0: uvm_test_top.tb.slave_uvc.agent.driver [Slave_DRIVER_CLASS] Inside Constructor
+UVM_INFO ../APB_slave/sv/apb_slave_monitor.sv(95) @ 0: uvm_test_top.tb.slave_uvc.agent.monitor [Slave_MONITOR_CLASS] Inside Constructor
+UVM_INFO ../APB_slave/sv/apb_slave_sequencer.sv(13) @ 0: uvm_test_top.tb.slave_uvc.agent.sequencer [Slave_SEQUENCER_CLASS] Inside Constructor
+UVM_INFO ../APB_slave/sv/apb_slave_driver.sv(39) @ 0: uvm_test_top.tb.slave_uvc.agent.driver [Slave_DRIVER_CLASS] Build Phase!
+UVM_INFO ../APB_slave/sv/apb_slave_monitor.sv(105) @ 0: uvm_test_top.tb.slave_uvc.agent.monitor [Slave_MONITOR_CLASS] Build Phase!
+UVM_INFO ../APB_slave/sv/apb_slave_sequencer.sv(23) @ 0: uvm_test_top.tb.slave_uvc.agent.sequencer [Slave_SEQUENCER_CLASS] Build Phase!
+UVM_INFO ../sv/apb_master_driver.sv(93) @ 0: uvm_test_top.tb.master_uvc.agent.driver [DRIVER_CLASS] Connect Phase!
+UVM_INFO ../sv/apb_master_monitor.sv(89) @ 0: uvm_test_top.tb.master_uvc.agent.monitor [MONITOR_CLASS] Connect Phase!
+UVM_INFO ../sv/apb_master_sequencer.sv(35) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [SEQUENCER_CLASS] Connect Phase!
+UVM_INFO ../sv/apb_master_agent.sv(57) @ 0: uvm_test_top.tb.master_uvc.agent [AGENT_CLASS] Connect Phase!
+UVM_INFO ../sv/apb_master_env.sv(36) @ 0: uvm_test_top.tb.master_uvc [ENV_CLASS] Connect Phase!
+UVM_INFO ../APB_slave/sv/apb_slave_driver.sv(53) @ 0: uvm_test_top.tb.slave_uvc.agent.driver [Slave_DRIVER_CLASS] Connect Phase!
+UVM_INFO ../APB_slave/sv/apb_slave_monitor.sv(121) @ 0: uvm_test_top.tb.slave_uvc.agent.monitor [Slave_MONITOR_CLASS] Connect Phase!
+UVM_INFO ../APB_slave/sv/apb_slave_sequencer.sv(35) @ 0: uvm_test_top.tb.slave_uvc.agent.sequencer [Slave_SEQUENCER_CLASS] Connect Phase!
+UVM_INFO ../APB_slave/sv/apb_slave_agent.sv(57) @ 0: uvm_test_top.tb.slave_uvc.agent [Slave_AGENT_CLASS] Connect Phase!
+UVM_INFO ../APB_slave/sv/apb_slave_env.sv(36) @ 0: uvm_test_top.tb.slave_uvc [Slave_ENV_CLASS] Connect Phase!
+UVM_INFO apb_tb.sv(35) @ 0: uvm_test_top.tb [apb_tb] Connecting the Sequencer and the ports...
+UVM_INFO apb_tb.sv(40) @ 0: uvm_test_top.tb [apb_tb] Connection Complete
+UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+------------------------------------------------------------------
+Name                          Type                     Size  Value
+------------------------------------------------------------------
+uvm_test_top                  base_test                -     @2851
+  tb                          apb_tb                   -     @2890
+    apb_module_env_handle     apb_module_env           -     @3696
+      apb_scoreboard_handle   apb_scoreboard           -     @3829
+        master_in             uvm_analysis_imp_master  -     @3880
+          recording_detail    integral                 32    'd1  
+        slave_in              uvm_analysis_imp_slave   -     @3929
+          recording_detail    integral                 32    'd1  
+        recording_detail      integral                 32    'd1  
+      master_export_port      uvm_analysis_export      -     @3745
+        recording_detail      integral                 32    'd1  
+      slave_export_port       uvm_analysis_export      -     @3796
+        recording_detail      integral                 32    'd1  
+      recording_detail        integral                 32    'd1  
+    master_uvc                apb_env                  -     @2982
+      agent                   apb_agent                -     @3971
+        driver                apb_driver               -     @4011
+          rsp_port            uvm_analysis_port        -     @4113
+            recording_detail  integral                 32    'd1  
+          seq_item_port       uvm_seq_item_pull_port   -     @4062
+            recording_detail  integral                 32    'd1  
+          recording_detail    integral                 32    'd1  
+        monitor               apb_monitor              -     @4148
+          master_out          uvm_analysis_port        -     @4854
+            recording_detail  integral                 32    'd1  
+          recording_detail    integral                 32    'd1  
+        sequencer             apb_sequencer            -     @4183
+          rsp_export          uvm_analysis_export      -     @4240
+            recording_detail  integral                 32    'd1  
+          seq_item_export     uvm_seq_item_pull_imp    -     @4788
+            recording_detail  integral                 32    'd1  
+          recording_detail    integral                 32    'd1  
+          arbitration_queue   array                    0     -    
+          lock_queue          array                    0     -    
+          num_last_reqs       integral                 32    'd1  
+          num_last_rsps       integral                 32    'd1  
+        recording_detail      integral                 32    'd1  
+      recording_detail        integral                 32    'd1  
+    mc_seqr                   apb_mcsequencer          -     @3052
+      rsp_export              uvm_analysis_export      -     @3110
+        recording_detail      integral                 32    'd1  
+      seq_item_export         uvm_seq_item_pull_imp    -     @3660
+        recording_detail      integral                 32    'd1  
+      apb_seqr                apb_sequencer            -     @4183
+        rsp_export            uvm_analysis_export      -     @4240
+          recording_detail    integral                 32    'd1  
+        seq_item_export       uvm_seq_item_pull_imp    -     @4788
+          recording_detail    integral                 32    'd1  
+        recording_detail      integral                 32    'd1  
+        arbitration_queue     array                    0     -    
+        lock_queue            array                    0     -    
+        num_last_reqs         integral                 32    'd1  
+        num_last_rsps         integral                 32    'd1  
+      apb_slave_seqr          apb_slave_sequencer      -     @5142
+        rsp_export            uvm_analysis_export      -     @5199
+          recording_detail    integral                 32    'd1  
+        seq_item_export       uvm_seq_item_pull_imp    -     @5747
+          recording_detail    integral                 32    'd1  
+        recording_detail      integral                 32    'd1  
+        arbitration_queue     array                    0     -    
+        lock_queue            array                    0     -    
+        num_last_reqs         integral                 32    'd1  
+        num_last_rsps         integral                 32    'd1  
+      recording_detail        integral                 32    'd1  
+      arbitration_queue       array                    0     -    
+      lock_queue              array                    0     -    
+      num_last_reqs           integral                 32    'd1  
+      num_last_rsps           integral                 32    'd1  
+    slave_uvc                 apb_slave_env            -     @3018
+      agent                   apb_slave_agent          -     @4931
+        driver                apb_slave_driver         -     @4970
+          rsp_port            uvm_analysis_port        -     @5072
+            recording_detail  integral                 32    'd1  
+          seq_item_port       uvm_seq_item_pull_port   -     @5021
+            recording_detail  integral                 32    'd1  
+          recording_detail    integral                 32    'd1  
+        monitor               apb_slave_monitor        -     @5106
+          slave_out           uvm_analysis_port        -     @5813
+            recording_detail  integral                 32    'd1  
+          recording_detail    integral                 32    'd1  
+        sequencer             apb_slave_sequencer      -     @5142
+          rsp_export          uvm_analysis_export      -     @5199
+            recording_detail  integral                 32    'd1  
+          seq_item_export     uvm_seq_item_pull_imp    -     @5747
+            recording_detail  integral                 32    'd1  
+          recording_detail    integral                 32    'd1  
+          arbitration_queue   array                    0     -    
+          lock_queue          array                    0     -    
+          num_last_reqs       integral                 32    'd1  
+          num_last_rsps       integral                 32    'd1  
+        recording_detail      integral                 32    'd1  
+      recording_detail        integral                 32    'd1  
+    master_uvc                apb_env                  -     @2982
+      agent                   apb_agent                -     @3971
+        driver                apb_driver               -     @4011
+          rsp_port            uvm_analysis_port        -     @4113
+            recording_detail  integral                 32    'd1  
+          seq_item_port       uvm_seq_item_pull_port   -     @4062
+            recording_detail  integral                 32    'd1  
+          recording_detail    integral                 32    'd1  
+        monitor               apb_monitor              -     @4148
+          master_out          uvm_analysis_port        -     @4854
+            recording_detail  integral                 32    'd1  
+          recording_detail    integral                 32    'd1  
+        sequencer             apb_sequencer            -     @4183
+          rsp_export          uvm_analysis_export      -     @4240
+            recording_detail  integral                 32    'd1  
+          seq_item_export     uvm_seq_item_pull_imp    -     @4788
+            recording_detail  integral                 32    'd1  
+          recording_detail    integral                 32    'd1  
+          arbitration_queue   array                    0     -    
+          lock_queue          array                    0     -    
+          num_last_reqs       integral                 32    'd1  
+          num_last_rsps       integral                 32    'd1  
+        recording_detail      integral                 32    'd1  
+      recording_detail        integral                 32    'd1  
+    slave_uvc                 apb_slave_env            -     @3018
+      agent                   apb_slave_agent          -     @4931
+        driver                apb_slave_driver         -     @4970
+          rsp_port            uvm_analysis_port        -     @5072
+            recording_detail  integral                 32    'd1  
+          seq_item_port       uvm_seq_item_pull_port   -     @5021
+            recording_detail  integral                 32    'd1  
+          recording_detail    integral                 32    'd1  
+        monitor               apb_slave_monitor        -     @5106
+          slave_out           uvm_analysis_port        -     @5813
+            recording_detail  integral                 32    'd1  
+          recording_detail    integral                 32    'd1  
+        sequencer             apb_slave_sequencer      -     @5142
+          rsp_export          uvm_analysis_export      -     @5199
+            recording_detail  integral                 32    'd1  
+          seq_item_export     uvm_seq_item_pull_imp    -     @5747
+            recording_detail  integral                 32    'd1  
+          recording_detail    integral                 32    'd1  
+          arbitration_queue   array                    0     -    
+          lock_queue          array                    0     -    
+          num_last_reqs       integral                 32    'd1  
+          num_last_rsps       integral                 32    'd1  
+        recording_detail      integral                 32    'd1  
+      recording_detail        integral                 32    'd1  
+    mc_seqr                   apb_mcsequencer          -     @3052
+      rsp_export              uvm_analysis_export      -     @3110
+        recording_detail      integral                 32    'd1  
+      seq_item_export         uvm_seq_item_pull_imp    -     @3660
+        recording_detail      integral                 32    'd1  
+      apb_seqr                apb_sequencer            -     @4183
+        rsp_export            uvm_analysis_export      -     @4240
+          recording_detail    integral                 32    'd1  
+        seq_item_export       uvm_seq_item_pull_imp    -     @4788
+          recording_detail    integral                 32    'd1  
+        recording_detail      integral                 32    'd1  
+        arbitration_queue     array                    0     -    
+        lock_queue            array                    0     -    
+        num_last_reqs         integral                 32    'd1  
+        num_last_rsps         integral                 32    'd1  
+      apb_slave_seqr          apb_slave_sequencer      -     @5142
+        rsp_export            uvm_analysis_export      -     @5199
+          recording_detail    integral                 32    'd1  
+        seq_item_export       uvm_seq_item_pull_imp    -     @5747
+          recording_detail    integral                 32    'd1  
+        recording_detail      integral                 32    'd1  
+        arbitration_queue     array                    0     -    
+        lock_queue            array                    0     -    
+        num_last_reqs         integral                 32    'd1  
+        num_last_rsps         integral                 32    'd1  
+      recording_detail        integral                 32    'd1  
+      arbitration_queue       array                    0     -    
+      lock_queue              array                    0     -    
+      num_last_reqs           integral                 32    'd1  
+      num_last_rsps           integral                 32    'd1  
+    recording_detail          integral                 32    'd1  
+------------------------------------------------------------------
+
+UVM_INFO apb_tb.sv(44) @ 0: uvm_test_top.tb [apb_tb] Running Simulation...
+UVM_INFO ../APB_slave/sv/apb_slave_env.sv(47) @ 0: uvm_test_top.tb.slave_uvc [Slave_ENV_CLASS] Run Phase!
+UVM_INFO ../APB_slave/sv/apb_slave_agent.sv(81) @ 0: uvm_test_top.tb.slave_uvc.agent [Slave_AGENT_CLASS] Run Phase!
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.slave_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'run'
+UVM_INFO ../APB_slave/sv/apb_slave_monitor.sv(131) @ 0: uvm_test_top.tb.slave_uvc.agent.monitor [Slave_MONITOR_CLASS] Run Phase!
+UVM_INFO ../APB_slave/sv/apb_slave_driver.sv(63) @ 0: uvm_test_top.tb.slave_uvc.agent.driver [Slave_DRIVER_CLASS] Run Phase!
+UVM_INFO ../APB_slave/sv/apb_slave_driver.sv(67) @ 0: uvm_test_top.tb.slave_uvc.agent.driver [apb_slave_driver] Slave - START LOOP
+time =                    0, pready AT end = x
+UVM_INFO apb_mcseqs_lib.sv(773) @ 0: reporter@@apb_write_then_read_on_same_address_mcseq [MULTI_CHANNEL_SEQUENCE_CLASS] Inside Constructors
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1391) @ 0: uvm_test_top.tb.mc_seqr [PHASESEQ] Starting default sequence 'apb_write_then_read_on_same_address_mcseq' for phase 'run'
+stop -create -name Randomize -randomize
+Created stop Randomize
+
+SDI/Verilog Transaction Recording Facility Version 23.09-s006
+UVM_INFO ../sv/apb_master_env.sv(47) @ 0: uvm_test_top.tb.master_uvc [ENV_CLASS] Run Phase!
+UVM_INFO ../sv/apb_master_agent.sv(81) @ 0: uvm_test_top.tb.master_uvc.agent [AGENT_CLASS] Run Phase!
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'run'
+UVM_INFO ../sv/apb_master_monitor.sv(99) @ 0: uvm_test_top.tb.master_uvc.agent.monitor [MONITOR_CLASS] Run Phase!
+UVM_INFO ../sv/apb_master_driver.sv(103) @ 0: uvm_test_top.tb.master_uvc.agent.driver [DRIVER_CLASS] Run Phase!
+UVM_INFO apb_mcseqs_lib.sv(27) @ 0: reporter@@apb_write_then_read_on_same_address_mcseq [apb_write_then_read_on_same_address_mcseq] raise objection
+UVM_INFO apb_mcseqs_lib.sv(781) @ 0: reporter@@apb_write_then_read_on_same_address_mcseq [apb_write_then_read_on_same_address_mcseq] Executing apb_write_then_read_on_same_address_mcseq sequence
+UVM_INFO ../sv/apb_master_sequence.sv(57) @ 0: reporter@@apb_rst_seq [SEQUENCE_CLASS] Inside Constructors
+UVM_INFO ../sv/apb_master_sequence.sv(65) @ 0: reporter@@apb_rst_seq [SEQUENCE_CLASS] Inside Body Task!
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.slave_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'pre_reset'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.mc_seqr [PHASESEQ] No default phase sequence for phase 'pre_reset'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'pre_reset'
+UVM_INFO ../sv/apb_master_driver.sv(109) @ 0: uvm_test_top.tb.master_uvc.agent.driver [apb_driver] Sending this packet to DUT:
+--------------------------------------------------------------------------------------------------------------------------
+Name                           Type        Size  Value                                                                    
+--------------------------------------------------------------------------------------------------------------------------
+req                            apb_packet  -     @6428                                                                    
+  rstn                         integral    1     'h0                                                                      
+  prdata                       integral    32    'h0xxxxxxxx                                                              
+  pwdata                       integral    32    'h338264ec                                                               
+  paddr                        integral    8     'ha2                                                                     
+  pwrite                       integral    1     'h0                                                                      
+  psel                         integral    2     'h1                                                                      
+  penable                      integral    1     'h1                                                                      
+  begin_time                   time        64    0                                                                        
+  depth                        int         32    'd3                                                                      
+  parent sequence (name)       string      7     rst_pkt                                                                  
+  parent sequence (full name)  string      73    uvm_test_top.tb.mc_seqr.apb_write_then_read_on_same_address_mcseq.rst_pkt
+  sequencer                    string      42    uvm_test_top.tb.master_uvc.agent.sequencer                               
+--------------------------------------------------------------------------------------------------------------------------
+
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.slave_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'reset'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.mc_seqr [PHASESEQ] No default phase sequence for phase 'reset'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'reset'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.slave_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'post_reset'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.mc_seqr [PHASESEQ] No default phase sequence for phase 'post_reset'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'post_reset'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.slave_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'pre_configure'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.mc_seqr [PHASESEQ] No default phase sequence for phase 'pre_configure'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'pre_configure'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.slave_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'configure'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.mc_seqr [PHASESEQ] No default phase sequence for phase 'configure'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'configure'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.slave_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'post_configure'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.mc_seqr [PHASESEQ] No default phase sequence for phase 'post_configure'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'post_configure'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.slave_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'pre_main'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.mc_seqr [PHASESEQ] No default phase sequence for phase 'pre_main'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'pre_main'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.slave_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'main'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.mc_seqr [PHASESEQ] No default phase sequence for phase 'main'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'main'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.slave_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'post_main'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.mc_seqr [PHASESEQ] No default phase sequence for phase 'post_main'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'post_main'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.slave_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'pre_shutdown'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.mc_seqr [PHASESEQ] No default phase sequence for phase 'pre_shutdown'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'pre_shutdown'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.slave_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'shutdown'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.mc_seqr [PHASESEQ] No default phase sequence for phase 'shutdown'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'shutdown'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.slave_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'post_shutdown'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.mc_seqr [PHASESEQ] No default phase sequence for phase 'post_shutdown'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'post_shutdown'
+time =                   30, pready AT start = 0
+UVM_INFO ../APB_slave/sv/apb_slave_driver.sv(67) @ 30: uvm_test_top.tb.slave_uvc.agent.driver [apb_slave_driver] Slave - START LOOP
+time =                   30, pready AT end = 0
+UVM_INFO ../sv/apb_master_monitor.sv(150) @ 40: uvm_test_top.tb.master_uvc.agent.monitor [apb_monitor] Receiving this packet in Master:
+----------------------------------------
+Name       Type        Size  Value      
+----------------------------------------
+item       apb_packet  -     @6417      
+  rstn     integral    1     'h0        
+  prdata   integral    32    'h0xxxxxxxx
+  pwdata   integral    32    'h0xxxxxxxx
+  paddr    integral    8     'ha2       
+  pwrite   integral    1     'h0        
+  psel     integral    2     'h1        
+  penable  integral    1     'h0        
+----------------------------------------
+
+UVM_INFO ../APB_slave/sv/apb_slave_sequence.sv(51) @ 40: reporter@@apb_no_delay_seq [SLAVE_SEQUENCE_CLASS] Inside Constructors
+UVM_INFO ../APB_slave/sv/apb_slave_sequence.sv(51) @ 40: reporter@@apb_no_delay_seq [SLAVE_SEQUENCE_CLASS] Inside Constructors
+UVM_INFO ../sv/apb_master_sequence.sv(490) @ 40: uvm_test_top.tb.master_uvc.agent.sequencer@@apb_write_then_read_on_same_address_mcseq.act_pkt1 [Directed_singleWrite] Executing Directed_singleWrite sequence
+UVM_INFO ../APB_slave/sv/apb_slave_sequence.sv(59) @ 40: reporter@@apb_no_delay_seq [apb_no_delay_seq] Executing apb_no_delay_seq sequence**********************
+UVM_INFO ../sv/apb_master_sequence.sv(509) @ 40: uvm_test_top.tb.master_uvc.agent.sequencer@@apb_write_then_read_on_same_address_mcseq.act_pkt [Directed_singleRead] Executing Directed_singleRead sequence
+UVM_INFO ../APB_slave/sv/apb_slave_sequence.sv(59) @ 40: reporter@@apb_no_delay_seq [apb_no_delay_seq] Executing apb_no_delay_seq sequence**********************
+UVM_INFO ../APB_slave/sv/apb_slave_monitor.sv(172) @ 50: uvm_test_top.tb.slave_uvc.agent.monitor [apb_slave_monitor] Receiving this packet in SLAVE===========================================:
+----------------------------------------------
+Name       Type              Size  Value      
+----------------------------------------------
+item       apb_slave_packet  -     @6363      
+  rstn     integral          1     'h0        
+  prdata   integral          32    'h0xxxxxxxx
+  pwdata   integral          32    'h0xxxxxxxx
+  paddr    integral          8     'ha2       
+  pwrite   integral          1     'h0        
+  psel     integral          2     'h0        
+  penable  integral          1     'h0        
+  delay    integral          3     'h0        
+  pready   integral          1     'h0        
+----------------------------------------------
+ ,
+ packet no:           1
+UVM_INFO ../sv/apb_master_driver.sv(109) @ 60: uvm_test_top.tb.master_uvc.agent.driver [apb_driver] Sending this packet to DUT:
+---------------------------------------------------------------------------------------------------------------------------
+Name                           Type        Size  Value                                                                     
+---------------------------------------------------------------------------------------------------------------------------
+req                            apb_packet  -     @6330                                                                     
+  rstn                         integral    1     'h1                                                                       
+  prdata                       integral    32    'h0xxxxxxxx                                                               
+  pwdata                       integral    32    'h21abdd72                                                                
+  paddr                        integral    8     'h9                                                                       
+  pwrite                       integral    1     'h1                                                                       
+  psel                         integral    2     'h1                                                                       
+  penable                      integral    1     'h1                                                                       
+  begin_time                   time        64    60                                                                        
+  depth                        int         32    'd3                                                                       
+  parent sequence (name)       string      8     act_pkt1                                                                  
+  parent sequence (full name)  string      74    uvm_test_top.tb.mc_seqr.apb_write_then_read_on_same_address_mcseq.act_pkt1
+  sequencer                    string      42    uvm_test_top.tb.master_uvc.agent.sequencer                                
+---------------------------------------------------------------------------------------------------------------------------
+
+time =                   70, pready AT start = 0
+UVM_INFO ../APB_slave/sv/apb_slave_driver.sv(67) @ 70: uvm_test_top.tb.slave_uvc.agent.driver [apb_slave_driver] Slave - START LOOP
+time =                   70, pready AT end = 0
+UVM_INFO ../sv/apb_master_monitor.sv(150) @ 80: uvm_test_top.tb.master_uvc.agent.monitor [apb_monitor] Receiving this packet in Master:
+----------------------------------------
+Name       Type        Size  Value      
+----------------------------------------
+item       apb_packet  -     @6253      
+  rstn     integral    1     'h0        
+  prdata   integral    32    'h0xxxxxxxx
+  pwdata   integral    32    'h0xxxxxxxx
+  paddr    integral    8     'ha2       
+  pwrite   integral    1     'h0        
+  psel     integral    2     'h0        
+  penable  integral    1     'h0        
+----------------------------------------
+
+UVM_INFO ../sv/apb_master_driver.sv(157) @ 100: uvm_test_top.tb.master_uvc.agent.driver [apb_driver] Inside Master Driver Loop
+time =                  110, pready AT start = 0
+UVM_INFO ../APB_slave/sv/apb_slave_driver.sv(77) @ 110: uvm_test_top.tb.slave_uvc.agent.driver [apb_slave_driver] Slave - INSIDE RESET
+UVM_INFO ../APB_slave/sv/apb_slave_driver.sv(79) @ 110: uvm_test_top.tb.slave_uvc.agent.driver [apb_slave_driver] Slave - CREATE Item
+time =                  110, pready AT ITEM CREATE = 1
+UVM_INFO ../APB_slave/sv/apb_slave_driver.sv(82) @ 110: uvm_test_top.tb.slave_uvc.agent.driver [apb_slave_driver] Slave - GOt Item
+UVM_INFO ../APB_slave/sv/apb_slave_driver.sv(88) @ 110: uvm_test_top.tb.slave_uvc.agent.driver [apb_slave_driver] Slave - GOt Psel
+UVM_INFO ../sv/apb_master_driver.sv(157) @ 120: uvm_test_top.tb.master_uvc.agent.driver [apb_driver] Inside Master Driver Loop
+UVM_INFO ../sv/apb_interface.sv(56) @ 120: reporter [APB_ASSERT_1] ***********> Assertion Passed: penable is high after one cycle when psel is high
+UVM_INFO ../APB_slave/sv/apb_slave_driver.sv(92) @ 130: uvm_test_top.tb.slave_uvc.agent.driver [apb_slave_driver] Slave - GOt Penable
+time =                  130, pready AT item ASSIGNMENT = 1
+time =                  130, pready AT vif ASSIGNMENT = 1
+UVM_INFO ../APB_slave/sv/apb_slave_driver.sv(142) @ 130: uvm_test_top.tb.slave_uvc.agent.driver [apb_slave_driver] Sending this packet to Master:
+-------------------------------------------------------------------------------------------------------------------------------------------
+Name                           Type              Size  Value                                                                               
+-------------------------------------------------------------------------------------------------------------------------------------------
+req                            apb_slave_packet  -     @6319                                                                               
+  rstn                         integral          1     'h0X                                                                                
+  prdata                       integral          32    'h0xxxxxxxx                                                                         
+  pwdata                       integral          32    'h0xxxxxxxx                                                                         
+  paddr                        integral          8     'h0xx                                                                               
+  pwrite                       integral          1     'h0X                                                                                
+  psel                         integral          2     'h0X                                                                                
+  penable                      integral          1     'h0X                                                                                
+  delay                        integral          3     'h0                                                                                 
+  pready                       integral          1     'h1                                                                                 
+  begin_time                   time              64    110                                                                                 
+  depth                        int               32    'd3                                                                                 
+  parent sequence (name)       string            18    slave_no_delay_pkt                                                                  
+  parent sequence (full name)  string            84    uvm_test_top.tb.mc_seqr.apb_write_then_read_on_same_address_mcseq.slave_no_delay_pkt
+  sequencer                    string            41    uvm_test_top.tb.slave_uvc.agent.sequencer                                           
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+UVM_INFO ../sv/apb_master_monitor.sv(150) @ 140: uvm_test_top.tb.master_uvc.agent.monitor [apb_monitor] Receiving this packet in Master:
+----------------------------------------
+Name       Type        Size  Value      
+----------------------------------------
+item       apb_packet  -     @6363      
+  rstn     integral    1     'h1        
+  prdata   integral    32    'h0xxxxxxxx
+  pwdata   integral    32    'h21abdd72 
+  paddr    integral    8     'h9        
+  pwrite   integral    1     'h1        
+  psel     integral    2     'h1        
+  penable  integral    1     'h1        
+----------------------------------------
+
+Time =                  140     mpkt.pwrite = 1
+=================mem[mpkt.paddr] =  564911474
+UVM_INFO ../sv/apb_master_driver.sv(169) @ 140: uvm_test_top.tb.master_uvc.agent.driver [apb_driver] Outside Master Driver Loop
+UVM_INFO ../APB_slave/sv/apb_slave_driver.sv(67) @ 150: uvm_test_top.tb.slave_uvc.agent.driver [apb_slave_driver] Slave - START LOOP
+time =                  150, pready AT end = 1
+UVM_INFO ../APB_slave/sv/apb_slave_monitor.sv(172) @ 150: uvm_test_top.tb.slave_uvc.agent.monitor [apb_slave_monitor] Receiving this packet in SLAVE===========================================:
+----------------------------------------------
+Name       Type              Size  Value      
+----------------------------------------------
+item       apb_slave_packet  -     @6276      
+  rstn     integral          1     'h1        
+  prdata   integral          32    'h0xxxxxxxx
+  pwdata   integral          32    'h21abdd72 
+  paddr    integral          8     'h9        
+  pwrite   integral          1     'h1        
+  psel     integral          2     'h1        
+  penable  integral          1     'h1        
+  delay    integral          3     'h0        
+  pready   integral          1     'h0        
+----------------------------------------------
+ ,
+ packet no:           2
+UVM_INFO ../sv/apb_interface.sv(101) @ 150: reporter [APB_ASSERT_3] ***> Assertion Passed: prdata is x when pwrite is high
+UVM_INFO ../sv/apb_interface.sv(85) @ 150: reporter [APB_ASSERT_2] ***> Assertion Passed: pready is high after N clock cycles of penable is asserted
+UVM_INFO ../sv/apb_master_driver.sv(109) @ 160: uvm_test_top.tb.master_uvc.agent.driver [apb_driver] Sending this packet to DUT:
+--------------------------------------------------------------------------------------------------------------------------
+Name                           Type        Size  Value                                                                    
+--------------------------------------------------------------------------------------------------------------------------
+req                            apb_packet  -     @6308                                                                    
+  rstn                         integral    1     'h1                                                                      
+  prdata                       integral    32    'h0xxxxxxxx                                                              
+  pwdata                       integral    32    'h37e952af                                                               
+  paddr                        integral    8     'h9                                                                      
+  pwrite                       integral    1     'h0                                                                      
+  psel                         integral    2     'h1                                                                      
+  penable                      integral    1     'h1                                                                      
+  begin_time                   time        64    160                                                                      
+  depth                        int         32    'd3                                                                      
+  parent sequence (name)       string      7     act_pkt                                                                  
+  parent sequence (full name)  string      73    uvm_test_top.tb.mc_seqr.apb_write_then_read_on_same_address_mcseq.act_pkt
+  sequencer                    string      42    uvm_test_top.tb.master_uvc.agent.sequencer                               
+--------------------------------------------------------------------------------------------------------------------------
+
+UVM_INFO ../sv/apb_interface.sv(101) @ 170: reporter [APB_ASSERT_3] ***> Assertion Passed: prdata is x when pwrite is high
+time =                  190, pready AT start = 0
+UVM_INFO ../APB_slave/sv/apb_slave_driver.sv(77) @ 190: uvm_test_top.tb.slave_uvc.agent.driver [apb_slave_driver] Slave - INSIDE RESET
+UVM_INFO ../APB_slave/sv/apb_slave_driver.sv(79) @ 190: uvm_test_top.tb.slave_uvc.agent.driver [apb_slave_driver] Slave - CREATE Item
+time =                  190, pready AT ITEM CREATE = 0
+UVM_INFO ../APB_slave/sv/apb_slave_driver.sv(82) @ 190: uvm_test_top.tb.slave_uvc.agent.driver [apb_slave_driver] Slave - GOt Item
+UVM_INFO ../APB_slave/sv/apb_slave_driver.sv(88) @ 190: uvm_test_top.tb.slave_uvc.agent.driver [apb_slave_driver] Slave - GOt Psel
+UVM_INFO ../APB_slave/sv/apb_slave_driver.sv(92) @ 210: uvm_test_top.tb.slave_uvc.agent.driver [apb_slave_driver] Slave - GOt Penable
+time =                  210, pready AT item ASSIGNMENT = 1
+time =                  210, pready AT vif ASSIGNMENT = 1
+UVM_INFO ../APB_slave/sv/apb_slave_driver.sv(142) @ 210: uvm_test_top.tb.slave_uvc.agent.driver [apb_slave_driver] Sending this packet to Master:
+-------------------------------------------------------------------------------------------------------------------------------------------
+Name                           Type              Size  Value                                                                               
+-------------------------------------------------------------------------------------------------------------------------------------------
+req                            apb_slave_packet  -     @6298                                                                               
+  rstn                         integral          1     'h0X                                                                                
+  prdata                       integral          32    'h21abdd72                                                                          
+  pwdata                       integral          32    'h0xxxxxxxx                                                                         
+  paddr                        integral          8     'h0xx                                                                               
+  pwrite                       integral          1     'h0X                                                                                
+  psel                         integral          2     'h0X                                                                                
+  penable                      integral          1     'h0X                                                                                
+  delay                        integral          3     'h0                                                                                 
+  pready                       integral          1     'h1                                                                                 
+  begin_time                   time              64    190                                                                                 
+  depth                        int               32    'd3                                                                                 
+  parent sequence (name)       string            18    slave_no_delay_pkt                                                                  
+  parent sequence (full name)  string            84    uvm_test_top.tb.mc_seqr.apb_write_then_read_on_same_address_mcseq.slave_no_delay_pkt
+  sequencer                    string            41    uvm_test_top.tb.slave_uvc.agent.sequencer                                           
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+UVM_INFO ../sv/apb_master_monitor.sv(150) @ 220: uvm_test_top.tb.master_uvc.agent.monitor [apb_monitor] Receiving this packet in Master:
+----------------------------------------
+Name       Type        Size  Value      
+----------------------------------------
+item       apb_packet  -     @6229      
+  rstn     integral    1     'h1        
+  prdata   integral    32    'h21abdd72 
+  pwdata   integral    32    'h0xxxxxxxx
+  paddr    integral    8     'h9        
+  pwrite   integral    1     'h0        
+  psel     integral    2     'h1        
+  penable  integral    1     'h1        
+----------------------------------------
+
+Time =                  220     mpkt.pwrite = 0
+UVM_INFO ../sv/apb_interface.sv(56) @ 220: reporter [APB_ASSERT_1] ***********> Assertion Passed: penable is high after one cycle when psel is high
+UVM_INFO ../APB_slave/sv/apb_slave_monitor.sv(172) @ 230: uvm_test_top.tb.slave_uvc.agent.monitor [apb_slave_monitor] Receiving this packet in SLAVE===========================================:
+----------------------------------------------
+Name       Type              Size  Value      
+----------------------------------------------
+item       apb_slave_packet  -     @6208      
+  rstn     integral          1     'h1        
+  prdata   integral          32    'h21abdd72 
+  pwdata   integral          32    'h0xxxxxxxx
+  paddr    integral          8     'h9        
+  pwrite   integral          1     'h0        
+  psel     integral          2     'h1        
+  penable  integral          1     'h1        
+  delay    integral          3     'h0        
+  pready   integral          1     'h0        
+----------------------------------------------
+ ,
+ packet no:           3
+UVM_INFO ../APB_slave/sv/apb_slave_driver.sv(67) @ 230: uvm_test_top.tb.slave_uvc.agent.driver [apb_slave_driver] Slave - START LOOP
+time =                  230, pready AT end = 1
+UVM_INFO apb_mcseqs_lib.sv(56) @ 230: reporter@@apb_write_then_read_on_same_address_mcseq [apb_write_then_read_on_same_address_mcseq] drop objection
+UVM_INFO ../sv/apb_interface.sv(117) @ 230: reporter [APB_ASSERT_4] ***> Assertion Passed: prdata is valid when pwrite is low
+UVM_INFO ../sv/apb_interface.sv(85) @ 230: reporter [APB_ASSERT_2] ***> Assertion Passed: pready is high after N clock cycles of penable is asserted
+UVM_INFO ../sv/apb_interface.sv(117) @ 250: reporter [APB_ASSERT_4] ***> Assertion Passed: prdata is valid when pwrite is low
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_objection.svh(1245) @ 270: reporter [TEST_DONE] All end-of-test objections have been dropped. Calling stop tasks
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_objection.svh(1268) @ 270: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+time =                  270, pready AT start = 0
+UVM_INFO ../APB_slave/sv/apb_slave_driver.sv(77) @ 270: uvm_test_top.tb.slave_uvc.agent.driver [apb_slave_driver] Slave - INSIDE RESET
+UVM_INFO ../APB_slave/sv/apb_slave_driver.sv(79) @ 270: uvm_test_top.tb.slave_uvc.agent.driver [apb_slave_driver] Slave - CREATE Item
+In expected_value =  564911474
+UVM_INFO ../sv/apb_scoreboard.sv(95) @ 270: uvm_test_top.tb.apb_module_env_handle.apb_scoreboard_handle [apb_scoreboard] Report: Scoreboard Packet Stats: Received: 2
+UVM_INFO ../sv/apb_scoreboard.sv(96) @ 270: uvm_test_top.tb.apb_module_env_handle.apb_scoreboard_handle [apb_scoreboard] Report: Scoreboard Packet Stats: Correct: 1
+UVM_INFO ../sv/apb_scoreboard.sv(97) @ 270: uvm_test_top.tb.apb_module_env_handle.apb_scoreboard_handle [apb_scoreboard] Report: Scoreboard Packet Stats: Bad: 0
+UVM_INFO ../APB_slave/sv/apb_slave_monitor.sv(193) @ 270: uvm_test_top.tb.slave_uvc.agent.monitor [apb_slave_monitor] Report: Slave APB Monitor Collected 3 Packets
+
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :  145
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[AGENT_CLASS]     4
+[APB_ASSERT_1]     2
+[APB_ASSERT_2]     2
+[APB_ASSERT_3]     2
+[APB_ASSERT_4]     2
+[DRIVER_CLASS]     4
+[Directed_singleRead]     1
+[Directed_singleWrite]     1
+[ENV_CLASS]     4
+[MONITOR_CLASS]     4
+[MULTI_CHANNEL_SEQUENCE_CLASS]     1
+[Multichannel Sequencer Class]     1
+[PHASESEQ]    39
+[RNTST]     1
+[SEQUENCER_CLASS]     3
+[SEQUENCE_CLASS]     2
+[SLAVE_SEQUENCE_CLASS]     2
+[Slave_AGENT_CLASS]     4
+[Slave_DRIVER_CLASS]     4
+[Slave_ENV_CLASS]     4
+[Slave_MONITOR_CLASS]     4
+[Slave_SEQUENCER_CLASS]     3
+[TEST_DONE]     2
+[Test Class]     2
+[Testbench_class]     1
+[UVMTOP]     1
+[apb_driver]     6
+[apb_monitor]     4
+[apb_no_delay_seq]     2
+[apb_scoreboard]     3
+[apb_slave_driver]    19
+[apb_slave_monitor]     4
+[apb_tb]     4
+[apb_write_then_read_on_same_address_mcseq]     3
+Simulation complete via $finish(1) at time 270 NS + 46
+/home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_root.svh:457     $finish;
+xcelium> 

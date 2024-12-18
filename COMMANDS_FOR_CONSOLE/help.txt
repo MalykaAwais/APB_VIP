@@ -1,0 +1,22 @@
+for commands:
+
+// There is a file.f already present in the (main) tb folder.
+// Just go in that directory and 
+
+Open linux console (in our case REDHAT LINUX ENTERPRISE OS)
+
+csh
+source ~./cshrc
+xrun -f file.f 
+
+// FOR COVERAGE
+
+xrun -f file.f -coverage all
+
+// FOR GUI AND ENABLING LIVE DATA I HAVE ALREADY ADDED COMMANDS IN file.f in commented form
+
+This work has been done on XCELIUM by CADENCE.
+
+Incase of any error due to directory structure, just keep the CODE folder in the outermost directory e.g DOCUMENTS of your directory structure
+This is how it is adjusted in file.f
+

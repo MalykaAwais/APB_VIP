@@ -1,0 +1,1146 @@
+xrun(64): 23.09-s006: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	23.09-s006: Started on Dec 09, 2024 at 05:05:24 PKT
+xrun
+	-f file.f
+		-64
+		-uvmhome /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d
+		-incdir ../sv
+		../sv/apb_pkg.sv
+		../sv/apb_interface.sv
+		hw_top.sv
+		tb_top.sv
+		+UVM_TESTNAME=base_test
+		+UVM_VERBOSITY=UVM_FULL
+		+SVSEED=random
+		-access +rwc
+		-timescale 1ns/1ns
+
+   User defined plus("+") options:
+	+UVM_VERBOSITY=UVM_FULL
+
+DEFINE std       ./STD
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE std       ./STD
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE std       ./STD
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE std       ./STD
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+Recompiling... reason: file '../sv/apb_master_env.sv' is newer than expected.
+	expected: Mon Dec  9 03:30:02 2024
+	actual:   Mon Dec  9 05:05:12 2024
+DEFINE std       ./STD
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d
+DEFINE std       ./STD
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE std       ./STD
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+file: ../sv/apb_pkg.sv
+endclass: apb_sequence
+                     |
+xmvlog: *W,LBLMAT (../sv/apb_master_sequence.sv,64|21): Label/name mismatch: apb_rst_seq - apb_sequence.
+(`include file: ../sv/apb_master_sequence.sv line 64, file: ../sv/apb_pkg.sv line 15)
+	package worklib.apb_pkg:sv
+		errors: 0, warnings: 1
+file: tb_top.sv
+	module worklib.tb_top:sv
+		errors: 0, warnings: 0
+endmodule : top
+              |
+xmvlog: *W,LBLMAT (tb_top.sv,32|14): Label/name mismatch: tb_top - top.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 16
+DEFINE std       ./STD
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE std       ./STD
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE std       ./STD
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		apb_pkg
+		hw_top
+		tb_top
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+DEFINE std       ./STD
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+		worklib.tb_top:sv <0x29502a88>
+			streams:  47, words: 59207
+		worklib.apb_pkg:sv <0x6dca00da>
+			streams: 584, words: 694317
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                       Instances  Unique
+		Modules:                       3       3
+		Interfaces:                    1       1
+		Verilog packages:              5       5
+		Registers:                 14139   10281
+		Scalar wires:                  3       -
+		Named events:                  4      12
+		Always blocks:                 1       1
+		Initial blocks:              295     159
+		Parallel blocks:              26      27
+		Pseudo assignments:            2       -
+		Assertions:                    2       2
+		SV Class declarations:       202     316
+		SV Class specializations:    389     389
+		Simulation timescale:        1ns
+	Writing initial simulation snapshot: worklib.hw_top:sv
+DEFINE std       ./STD
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+Loading snapshot worklib.hw_top:sv .................... Done
+SVSEED set randomly from command line: -1970332081
+xcelium> source /home/cc/mnt/XCELIUM2309/tools/xcelium/files/xmsimrc
+xcelium> source /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/additions/sv/files/tcl/uvm_sim.tcl
+xcelium> run
+----------------------------------------------------------------
+CDNS-UVM-1.1d (23.09-s006)
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO apb_test_lib.sv(8) @ 0: uvm_test_top [Test Class] Inside Constructor
+UVM_INFO @ 0: reporter [RNTST] Running test base_test...
+UVM_INFO apb_test_lib.sv(14) @ 0: uvm_test_top [Test Class] Build phase
+UVM_INFO apb_tb.sv(16) @ 0: uvm_test_top.tb [Testbench_class] Inside Constructor
+UVM_INFO ../sv/apb_master_env.sv(14) @ 0: uvm_test_top.tb.master_uvc [ENV_CLASS] Inside Constructor
+UVM_INFO apb_tb.sv(29) @ 0: uvm_test_top.tb [apb_tb] Build phase
+UVM_INFO ../sv/apb_master_env.sv(24) @ 0: uvm_test_top.tb.master_uvc [ENV_CLASS] Build Phase!
+UVM_INFO ../sv/apb_master_agent.sv(23) @ 0: uvm_test_top.tb.master_uvc.agent [AGENT_CLASS] Inside Constructor
+UVM_INFO ../sv/apb_master_agent.sv(34) @ 0: uvm_test_top.tb.master_uvc.agent [AGENT_CLASS] Build Phase!
+UVM_INFO ../sv/apb_master_driver.sv(25) @ 0: uvm_test_top.tb.master_uvc.agent.driver [DRIVER_CLASS] Inside Constructor
+UVM_INFO ../sv/apb_master_monitor.sv(25) @ 0: uvm_test_top.tb.master_uvc.agent.monitor [MONITOR_CLASS] Inside Constructor
+UVM_INFO ../sv/apb_master_sequencer.sv(13) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [SEQUENCER_CLASS] Inside Constructor
+UVM_INFO ../sv/apb_master_driver.sv(34) @ 0: uvm_test_top.tb.master_uvc.agent.driver [DRIVER_CLASS] Build Phase!
+UVM_INFO ../sv/apb_master_monitor.sv(35) @ 0: uvm_test_top.tb.master_uvc.agent.monitor [MONITOR_CLASS] Build Phase!
+UVM_INFO ../sv/apb_master_sequencer.sv(23) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [SEQUENCER_CLASS] Build Phase!
+UVM_INFO ../sv/apb_master_driver.sv(48) @ 0: uvm_test_top.tb.master_uvc.agent.driver [DRIVER_CLASS] Connect Phase!
+UVM_INFO ../sv/apb_master_monitor.sv(51) @ 0: uvm_test_top.tb.master_uvc.agent.monitor [MONITOR_CLASS] Connect Phase!
+UVM_INFO ../sv/apb_master_sequencer.sv(35) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [SEQUENCER_CLASS] Connect Phase!
+UVM_INFO ../sv/apb_master_agent.sv(57) @ 0: uvm_test_top.tb.master_uvc.agent [AGENT_CLASS] Connect Phase!
+UVM_INFO ../sv/apb_master_env.sv(36) @ 0: uvm_test_top.tb.master_uvc [ENV_CLASS] Connect Phase!
+UVM_INFO apb_tb.sv(34) @ 0: uvm_test_top.tb [apb_tb] Connecting the Sequencer and the ports...
+UVM_INFO apb_tb.sv(39) @ 0: uvm_test_top.tb [apb_tb] Connection Complete
+UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+-----------------------------------------------------------------
+Name                          Type                    Size  Value
+-----------------------------------------------------------------
+uvm_test_top                  base_test               -     @2652
+  tb                          apb_tb                  -     @2730
+    master_uvc                apb_env                 -     @2781
+      agent                   apb_agent               -     @2824
+        driver                apb_driver              -     @2864
+          rsp_port            uvm_analysis_port       -     @2966
+            recording_detail  integral                32    'd1  
+          seq_item_port       uvm_seq_item_pull_port  -     @2915
+            recording_detail  integral                32    'd1  
+          recording_detail    integral                32    'd1  
+        monitor               apb_monitor             -     @3002
+          monitor_port        uvm_analysis_port       -     @3708
+            recording_detail  integral                32    'd1  
+          recording_detail    integral                32    'd1  
+        sequencer             apb_sequencer           -     @3036
+          rsp_export          uvm_analysis_export     -     @3094
+            recording_detail  integral                32    'd1  
+          seq_item_export     uvm_seq_item_pull_imp   -     @3642
+            recording_detail  integral                32    'd1  
+          recording_detail    integral                32    'd1  
+          arbitration_queue   array                   0     -    
+          lock_queue          array                   0     -    
+          num_last_reqs       integral                32    'd1  
+          num_last_rsps       integral                32    'd1  
+        recording_detail      integral                32    'd1  
+      recording_detail        integral                32    'd1  
+    master_uvc                apb_env                 -     @2781
+      agent                   apb_agent               -     @2824
+        driver                apb_driver              -     @2864
+          rsp_port            uvm_analysis_port       -     @2966
+            recording_detail  integral                32    'd1  
+          seq_item_port       uvm_seq_item_pull_port  -     @2915
+            recording_detail  integral                32    'd1  
+          recording_detail    integral                32    'd1  
+        monitor               apb_monitor             -     @3002
+          monitor_port        uvm_analysis_port       -     @3708
+            recording_detail  integral                32    'd1  
+          recording_detail    integral                32    'd1  
+        sequencer             apb_sequencer           -     @3036
+          rsp_export          uvm_analysis_export     -     @3094
+            recording_detail  integral                32    'd1  
+          seq_item_export     uvm_seq_item_pull_imp   -     @3642
+            recording_detail  integral                32    'd1  
+          recording_detail    integral                32    'd1  
+          arbitration_queue   array                   0     -    
+          lock_queue          array                   0     -    
+          num_last_reqs       integral                32    'd1  
+          num_last_rsps       integral                32    'd1  
+        recording_detail      integral                32    'd1  
+      recording_detail        integral                32    'd1  
+    recording_detail          integral                32    'd1  
+-----------------------------------------------------------------
+
+UVM_INFO apb_tb.sv(43) @ 0: uvm_test_top.tb [apb_tb] Running Simulation...
+UVM_INFO ../sv/apb_master_env.sv(47) @ 0: uvm_test_top.tb.master_uvc [ENV_CLASS] Run Phase!
+UVM_INFO ../sv/apb_master_agent.sv(81) @ 0: uvm_test_top.tb.master_uvc.agent [AGENT_CLASS] Run Phase!
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1391) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [PHASESEQ] Starting default sequence 'apb_exhaustive_seq' for phase 'run'
+SDI/Verilog Transaction Recording Facility Version 23.09-s006
+UVM_INFO ../sv/apb_master_monitor.sv(61) @ 0: uvm_test_top.tb.master_uvc.agent.monitor [MONITOR_CLASS] Run Phase!
+UVM_INFO ../sv/apb_master_driver.sv(58) @ 0: uvm_test_top.tb.master_uvc.agent.driver [DRIVER_CLASS] Run Phase!
+UVM_INFO ../sv/apb_master_sequence.sv(21) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer@@apb_exhaustive_seq [apb_exhaustive_seq] raise objection
+UVM_INFO ../sv/apb_master_sequence.sv(113) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer@@apb_exhaustive_seq [apb_exhaustive_seq] Executing apb_exhaustive_seq sequence
+UVM_INFO ../sv/apb_master_sequence.sv(51) @ 0: reporter@@apb_rst_seq [SEQUENCE_CLASS] Inside Constructors
+UVM_INFO ../sv/apb_master_sequence.sv(59) @ 0: reporter@@apb_rst_seq [SEQUENCE_CLASS] Inside Body Task!
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'pre_reset'
+UVM_INFO ../sv/apb_master_driver.sv(64) @ 0: uvm_test_top.tb.master_uvc.agent.driver [apb_driver] Sending this packet to DUT:
+----------------------------------------------------------------------------------------------------------------------
+Name                           Type        Size  Value                                                                
+----------------------------------------------------------------------------------------------------------------------
+req                            apb_packet  -     @3889                                                                
+  prdata                       integral    32    'h0xxxxxxxx                                                          
+  pwdata                       integral    32    'hcd167ee6                                                           
+  paddr                        integral    8     'hf2                                                                 
+  pwrite                       integral    1     'h0                                                                  
+  psel                         integral    2     'h2                                                                  
+  penable                      integral    1     'h1                                                                  
+  begin_time                   time        64    0                                                                    
+  depth                        int         32    'd3                                                                  
+  parent sequence (name)       string      7     rst_pkt                                                              
+  parent sequence (full name)  string      69    uvm_test_top.tb.master_uvc.agent.sequencer.apb_exhaustive_seq.rst_pkt
+  sequencer                    string      42    uvm_test_top.tb.master_uvc.agent.sequencer                           
+----------------------------------------------------------------------------------------------------------------------
+
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'reset'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'post_reset'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'pre_configure'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'configure'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'post_configure'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'pre_main'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'main'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'post_main'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'pre_shutdown'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'shutdown'
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/seq/uvm_sequencer_base.svh(1385) @ 0: uvm_test_top.tb.master_uvc.agent.sequencer [PHASESEQ] No default phase sequence for phase 'post_shutdown'
+UVM_INFO ../sv/apb_master_monitor.sv(87) @ 10: uvm_test_top.tb.master_uvc.agent.monitor [apb_monitor] Receiving this packet to DUT:
+----------------------------------------
+Name       Type        Size  Value      
+----------------------------------------
+item       apb_packet  -     @3942      
+  prdata   integral    32    'h0xxxxxxxx
+  pwdata   integral    32    'h0xxxxxxxx
+  paddr    integral    8     'h0xx      
+  pwrite   integral    1     'h0X       
+  psel     integral    2     'h0X       
+  penable  integral    1     'h0X       
+----------------------------------------
+
+UVM_INFO ../sv/apb_master_sequence.sv(86) @ 10: reporter@@apb_active_sequence [TEST_SEQUENCE_CLASS] Inside Constructors
+UVM_INFO ../sv/apb_master_sequence.sv(94) @ 10: reporter@@apb_active_sequence [apb_active_sequence] Executing apb_active_sequence sequence
+UVM_INFO ../sv/apb_master_driver.sv(64) @ 10: uvm_test_top.tb.master_uvc.agent.driver [apb_driver] Sending this packet to DUT:
+----------------------------------------------------------------------------------------------------------------------
+Name                           Type        Size  Value                                                                
+----------------------------------------------------------------------------------------------------------------------
+req                            apb_packet  -     @3861                                                                
+  prdata                       integral    32    'h0xxxxxxxx                                                          
+  pwdata                       integral    32    'hc82eb5d5                                                           
+  paddr                        integral    8     'hd4                                                                 
+  pwrite                       integral    1     'h0                                                                  
+  psel                         integral    2     'h2                                                                  
+  penable                      integral    1     'h1                                                                  
+  begin_time                   time        64    10                                                                   
+  depth                        int         32    'd3                                                                  
+  parent sequence (name)       string      7     act_pkt                                                              
+  parent sequence (full name)  string      69    uvm_test_top.tb.master_uvc.agent.sequencer.apb_exhaustive_seq.act_pkt
+  sequencer                    string      42    uvm_test_top.tb.master_uvc.agent.sequencer                           
+----------------------------------------------------------------------------------------------------------------------
+
+UVM_INFO ../sv/apb_master_monitor.sv(87) @ 30: uvm_test_top.tb.master_uvc.agent.monitor [apb_monitor] Receiving this packet to DUT:
+----------------------------------------
+Name       Type        Size  Value      
+----------------------------------------
+item       apb_packet  -     @3850      
+  prdata   integral    32    'h0xxxxxxxx
+  pwdata   integral    32    'hcd167ee6 
+  paddr    integral    8     'hf2       
+  pwrite   integral    1     'h0        
+  psel     integral    2     'h2        
+  penable  integral    1     'h1        
+----------------------------------------
+
+UVM_INFO ../sv/apb_master_sequence.sv(86) @ 30: reporter@@apb_active_sequence [TEST_SEQUENCE_CLASS] Inside Constructors
+UVM_INFO ../sv/apb_master_sequence.sv(94) @ 30: reporter@@apb_active_sequence [apb_active_sequence] Executing apb_active_sequence sequence
+UVM_INFO ../sv/apb_master_driver.sv(64) @ 30: uvm_test_top.tb.master_uvc.agent.driver [apb_driver] Sending this packet to DUT:
+----------------------------------------------------------------------------------------------------------------------
+Name                           Type        Size  Value                                                                
+----------------------------------------------------------------------------------------------------------------------
+req                            apb_packet  -     @3871                                                                
+  prdata                       integral    32    'h0xxxxxxxx                                                          
+  pwdata                       integral    32    'h4d9066f1                                                           
+  paddr                        integral    8     'hb5                                                                 
+  pwrite                       integral    1     'h1                                                                  
+  psel                         integral    2     'h1                                                                  
+  penable                      integral    1     'h0                                                                  
+  begin_time                   time        64    30                                                                   
+  depth                        int         32    'd3                                                                  
+  parent sequence (name)       string      7     act_pkt                                                              
+  parent sequence (full name)  string      69    uvm_test_top.tb.master_uvc.agent.sequencer.apb_exhaustive_seq.act_pkt
+  sequencer                    string      42    uvm_test_top.tb.master_uvc.agent.sequencer                           
+----------------------------------------------------------------------------------------------------------------------
+
+UVM_INFO ../sv/apb_master_monitor.sv(87) @ 50: uvm_test_top.tb.master_uvc.agent.monitor [apb_monitor] Receiving this packet to DUT:
+----------------------------------------
+Name       Type        Size  Value      
+----------------------------------------
+item       apb_packet  -     @3793      
+  prdata   integral    32    'h0xxxxxxxx
+  pwdata   integral    32    'hc82eb5d5 
+  paddr    integral    8     'hd4       
+  pwrite   integral    1     'h0        
+  psel     integral    2     'h2        
+  penable  integral    1     'h0        
+----------------------------------------
+
+UVM_INFO ../sv/apb_master_sequence.sv(86) @ 50: reporter@@apb_active_sequence [TEST_SEQUENCE_CLASS] Inside Constructors
+UVM_INFO ../sv/apb_master_sequence.sv(94) @ 50: reporter@@apb_active_sequence [apb_active_sequence] Executing apb_active_sequence sequence
+UVM_INFO ../sv/apb_master_driver.sv(64) @ 50: uvm_test_top.tb.master_uvc.agent.driver [apb_driver] Sending this packet to DUT:
+----------------------------------------------------------------------------------------------------------------------
+Name                           Type        Size  Value                                                                
+----------------------------------------------------------------------------------------------------------------------
+req                            apb_packet  -     @3796                                                                
+  prdata                       integral    32    'h0xxxxxxxx                                                          
+  pwdata                       integral    32    'hfbfb4ac4                                                           
+  paddr                        integral    8     'h4f                                                                 
+  pwrite                       integral    1     'h0                                                                  
+  psel                         integral    2     'h3                                                                  
+  penable                      integral    1     'h1                                                                  
+  begin_time                   time        64    50                                                                   
+  depth                        int         32    'd3                                                                  
+  parent sequence (name)       string      7     act_pkt                                                              
+  parent sequence (full name)  string      69    uvm_test_top.tb.master_uvc.agent.sequencer.apb_exhaustive_seq.act_pkt
+  sequencer                    string      42    uvm_test_top.tb.master_uvc.agent.sequencer                           
+----------------------------------------------------------------------------------------------------------------------
+
+UVM_INFO ../sv/apb_master_monitor.sv(87) @ 70: uvm_test_top.tb.master_uvc.agent.monitor [apb_monitor] Receiving this packet to DUT:
+----------------------------------------
+Name       Type        Size  Value      
+----------------------------------------
+item       apb_packet  -     @3799      
+  prdata   integral    32    'h0xxxxxxxx
+  pwdata   integral    32    'hc82eb5d5 
+  paddr    integral    8     'hb5       
+  pwrite   integral    1     'h1        
+  psel     integral    2     'h1        
+  penable  integral    1     'h0        
+----------------------------------------
+
+UVM_INFO ../sv/apb_master_sequence.sv(86) @ 70: reporter@@apb_active_sequence [TEST_SEQUENCE_CLASS] Inside Constructors
+UVM_INFO ../sv/apb_master_sequence.sv(94) @ 70: reporter@@apb_active_sequence [apb_active_sequence] Executing apb_active_sequence sequence
+UVM_INFO ../sv/apb_master_driver.sv(64) @ 70: uvm_test_top.tb.master_uvc.agent.driver [apb_driver] Sending this packet to DUT:
+----------------------------------------------------------------------------------------------------------------------
+Name                           Type        Size  Value                                                                
+----------------------------------------------------------------------------------------------------------------------
+req                            apb_packet  -     @3797                                                                
+  prdata                       integral    32    'h0xxxxxxxx                                                          
+  pwdata                       integral    32    'h4feedd06                                                           
+  paddr                        integral    8     'hd1                                                                 
+  pwrite                       integral    1     'h0                                                                  
+  psel                         integral    2     'h2                                                                  
+  penable                      integral    1     'h0                                                                  
+  begin_time                   time        64    70                                                                   
+  depth                        int         32    'd3                                                                  
+  parent sequence (name)       string      7     act_pkt                                                              
+  parent sequence (full name)  string      69    uvm_test_top.tb.master_uvc.agent.sequencer.apb_exhaustive_seq.act_pkt
+  sequencer                    string      42    uvm_test_top.tb.master_uvc.agent.sequencer                           
+----------------------------------------------------------------------------------------------------------------------
+
+UVM_INFO ../sv/apb_master_monitor.sv(87) @ 90: uvm_test_top.tb.master_uvc.agent.monitor [apb_monitor] Receiving this packet to DUT:
+----------------------------------------
+Name       Type        Size  Value      
+----------------------------------------
+item       apb_packet  -     @4010      
+  prdata   integral    32    'h0xxxxxxxx
+  pwdata   integral    32    'hfbfb4ac4 
+  paddr    integral    8     'h4f       
+  pwrite   integral    1     'h0        
+  psel     integral    2     'h3        
+  penable  integral    1     'h0        
+----------------------------------------
+
+UVM_INFO ../sv/apb_master_sequence.sv(86) @ 90: reporter@@apb_active_sequence [TEST_SEQUENCE_CLASS] Inside Constructors
+UVM_INFO ../sv/apb_master_sequence.sv(94) @ 90: reporter@@apb_active_sequence [apb_active_sequence] Executing apb_active_sequence sequence
+UVM_INFO ../sv/apb_master_driver.sv(64) @ 90: uvm_test_top.tb.master_uvc.agent.driver [apb_driver] Sending this packet to DUT:
+----------------------------------------------------------------------------------------------------------------------
+Name                           Type        Size  Value                                                                
+----------------------------------------------------------------------------------------------------------------------
+req                            apb_packet  -     @4007                                                                
+  prdata                       integral    32    'h0xxxxxxxx                                                          
+  pwdata                       integral    32    'h3658cbda                                                           
+  paddr                        integral    8     'h3a                                                                 
+  pwrite                       integral    1     'h1                                                                  
+  psel                         integral    2     'h3                                                                  
+  penable                      integral    1     'h1                                                                  
+  begin_time                   time        64    90                                                                   
+  depth                        int         32    'd3                                                                  
+  parent sequence (name)       string      7     act_pkt                                                              
+  parent sequence (full name)  string      69    uvm_test_top.tb.master_uvc.agent.sequencer.apb_exhaustive_seq.act_pkt
+  sequencer                    string      42    uvm_test_top.tb.master_uvc.agent.sequencer                           
+----------------------------------------------------------------------------------------------------------------------
+
+UVM_INFO ../sv/apb_master_monitor.sv(87) @ 110: uvm_test_top.tb.master_uvc.agent.monitor [apb_monitor] Receiving this packet to DUT:
+----------------------------------------
+Name       Type        Size  Value      
+----------------------------------------
+item       apb_packet  -     @4017      
+  prdata   integral    32    'h0xxxxxxxx
+  pwdata   integral    32    'h4feedd06 
+  paddr    integral    8     'hd1       
+  pwrite   integral    1     'h0        
+  psel     integral    2     'h2        
+  penable  integral    1     'h0        
+----------------------------------------
+
+UVM_INFO ../sv/apb_master_sequence.sv(86) @ 110: reporter@@apb_active_sequence [TEST_SEQUENCE_CLASS] Inside Constructors
+UVM_INFO ../sv/apb_master_sequence.sv(94) @ 110: reporter@@apb_active_sequence [apb_active_sequence] Executing apb_active_sequence sequence
+UVM_INFO ../sv/apb_master_driver.sv(64) @ 110: uvm_test_top.tb.master_uvc.agent.driver [apb_driver] Sending this packet to DUT:
+----------------------------------------------------------------------------------------------------------------------
+Name                           Type        Size  Value                                                                
+----------------------------------------------------------------------------------------------------------------------
+req                            apb_packet  -     @4014                                                                
+  prdata                       integral    32    'h0xxxxxxxx                                                          
+  pwdata                       integral    32    'h18a6411a                                                           
+  paddr                        integral    8     'hb7                                                                 
+  pwrite                       integral    1     'h0                                                                  
+  psel                         integral    2     'h2                                                                  
+  penable                      integral    1     'h1                                                                  
+  begin_time                   time        64    110                                                                  
+  depth                        int         32    'd3                                                                  
+  parent sequence (name)       string      7     act_pkt                                                              
+  parent sequence (full name)  string      69    uvm_test_top.tb.master_uvc.agent.sequencer.apb_exhaustive_seq.act_pkt
+  sequencer                    string      42    uvm_test_top.tb.master_uvc.agent.sequencer                           
+----------------------------------------------------------------------------------------------------------------------
+
+UVM_INFO ../sv/apb_master_monitor.sv(87) @ 130: uvm_test_top.tb.master_uvc.agent.monitor [apb_monitor] Receiving this packet to DUT:
+----------------------------------------
+Name       Type        Size  Value      
+----------------------------------------
+item       apb_packet  -     @4024      
+  prdata   integral    32    'h0xxxxxxxx
+  pwdata   integral    32    'h4feedd06 
+  paddr    integral    8     'h3a       
+  pwrite   integral    1     'h1        
+  psel     integral    2     'h3        
+  penable  integral    1     'h0        
+----------------------------------------
+
+UVM_INFO ../sv/apb_master_sequence.sv(86) @ 130: reporter@@apb_active_sequence [TEST_SEQUENCE_CLASS] Inside Constructors
+UVM_INFO ../sv/apb_master_sequence.sv(94) @ 130: reporter@@apb_active_sequence [apb_active_sequence] Executing apb_active_sequence sequence
+UVM_INFO ../sv/apb_master_driver.sv(64) @ 130: uvm_test_top.tb.master_uvc.agent.driver [apb_driver] Sending this packet to DUT:
+----------------------------------------------------------------------------------------------------------------------
+Name                           Type        Size  Value                                                                
+----------------------------------------------------------------------------------------------------------------------
+req                            apb_packet  -     @4021                                                                
+  prdata                       integral    32    'h0xxxxxxxx                                                          
+  pwdata                       integral    32    'h23fce911                                                           
+  paddr                        integral    8     'hed                                                                 
+  pwrite                       integral    1     'h0                                                                  
+  psel                         integral    2     'h1                                                                  
+  penable                      integral    1     'h0                                                                  
+  begin_time                   time        64    130                                                                  
+  depth                        int         32    'd3                                                                  
+  parent sequence (name)       string      7     act_pkt                                                              
+  parent sequence (full name)  string      69    uvm_test_top.tb.master_uvc.agent.sequencer.apb_exhaustive_seq.act_pkt
+  sequencer                    string      42    uvm_test_top.tb.master_uvc.agent.sequencer                           
+----------------------------------------------------------------------------------------------------------------------
+
+UVM_INFO ../sv/apb_master_monitor.sv(87) @ 150: uvm_test_top.tb.master_uvc.agent.monitor [apb_monitor] Receiving this packet to DUT:
+----------------------------------------
+Name       Type        Size  Value      
+----------------------------------------
+item       apb_packet  -     @4031      
+  prdata   integral    32    'h0xxxxxxxx
+  pwdata   integral    32    'h18a6411a 
+  paddr    integral    8     'hb7       
+  pwrite   integral    1     'h0        
+  psel     integral    2     'h2        
+  penable  integral    1     'h0        
+----------------------------------------
+
+UVM_INFO ../sv/apb_master_sequence.sv(86) @ 150: reporter@@apb_active_sequence [TEST_SEQUENCE_CLASS] Inside Constructors
+UVM_INFO ../sv/apb_master_sequence.sv(94) @ 150: reporter@@apb_active_sequence [apb_active_sequence] Executing apb_active_sequence sequence
+UVM_INFO ../sv/apb_master_driver.sv(64) @ 150: uvm_test_top.tb.master_uvc.agent.driver [apb_driver] Sending this packet to DUT:
+----------------------------------------------------------------------------------------------------------------------
+Name                           Type        Size  Value                                                                
+----------------------------------------------------------------------------------------------------------------------
+req                            apb_packet  -     @4028                                                                
+  prdata                       integral    32    'h0xxxxxxxx                                                          
+  pwdata                       integral    32    'hd4dc3f77                                                           
+  paddr                        integral    8     'hb                                                                  
+  pwrite                       integral    1     'h0                                                                  
+  psel                         integral    2     'h0                                                                  
+  penable                      integral    1     'h1                                                                  
+  begin_time                   time        64    150                                                                  
+  depth                        int         32    'd3                                                                  
+  parent sequence (name)       string      7     act_pkt                                                              
+  parent sequence (full name)  string      69    uvm_test_top.tb.master_uvc.agent.sequencer.apb_exhaustive_seq.act_pkt
+  sequencer                    string      42    uvm_test_top.tb.master_uvc.agent.sequencer                           
+----------------------------------------------------------------------------------------------------------------------
+
+UVM_INFO ../sv/apb_master_monitor.sv(87) @ 170: uvm_test_top.tb.master_uvc.agent.monitor [apb_monitor] Receiving this packet to DUT:
+----------------------------------------
+Name       Type        Size  Value      
+----------------------------------------
+item       apb_packet  -     @4038      
+  prdata   integral    32    'h0xxxxxxxx
+  pwdata   integral    32    'h23fce911 
+  paddr    integral    8     'hed       
+  pwrite   integral    1     'h0        
+  psel     integral    2     'h1        
+  penable  integral    1     'h0        
+----------------------------------------
+
+UVM_INFO ../sv/apb_master_sequence.sv(86) @ 170: reporter@@apb_active_sequence [TEST_SEQUENCE_CLASS] Inside Constructors
+UVM_INFO ../sv/apb_master_sequence.sv(94) @ 170: reporter@@apb_active_sequence [apb_active_sequence] Executing apb_active_sequence sequence
+UVM_INFO ../sv/apb_master_driver.sv(64) @ 170: uvm_test_top.tb.master_uvc.agent.driver [apb_driver] Sending this packet to DUT:
+----------------------------------------------------------------------------------------------------------------------
+Name                           Type        Size  Value                                                                
+----------------------------------------------------------------------------------------------------------------------
+req                            apb_packet  -     @4035                                                                
+  prdata                       integral    32    'h0xxxxxxxx                                                          
+  pwdata                       integral    32    'hc1d71a72                                                           
+  paddr                        integral    8     'he3                                                                 
+  pwrite                       integral    1     'h1                                                                  
+  psel                         integral    2     'h1                                                                  
+  penable                      integral    1     'h0                                                                  
+  begin_time                   time        64    170                                                                  
+  depth                        int         32    'd3                                                                  
+  parent sequence (name)       string      7     act_pkt                                                              
+  parent sequence (full name)  string      69    uvm_test_top.tb.master_uvc.agent.sequencer.apb_exhaustive_seq.act_pkt
+  sequencer                    string      42    uvm_test_top.tb.master_uvc.agent.sequencer                           
+----------------------------------------------------------------------------------------------------------------------
+
+UVM_INFO ../sv/apb_master_monitor.sv(87) @ 190: uvm_test_top.tb.master_uvc.agent.monitor [apb_monitor] Receiving this packet to DUT:
+----------------------------------------
+Name       Type        Size  Value      
+----------------------------------------
+item       apb_packet  -     @4045      
+  prdata   integral    32    'h0xxxxxxxx
+  pwdata   integral    32    'hd4dc3f77 
+  paddr    integral    8     'hb        
+  pwrite   integral    1     'h0        
+  psel     integral    2     'h0        
+  penable  integral    1     'h0        
+----------------------------------------
+
+UVM_INFO ../sv/apb_master_sequence.sv(86) @ 190: reporter@@apb_active_sequence [TEST_SEQUENCE_CLASS] Inside Constructors
+UVM_INFO ../sv/apb_master_sequence.sv(94) @ 190: reporter@@apb_active_sequence [apb_active_sequence] Executing apb_active_sequence sequence
+UVM_INFO ../sv/apb_master_driver.sv(64) @ 190: uvm_test_top.tb.master_uvc.agent.driver [apb_driver] Sending this packet to DUT:
+----------------------------------------------------------------------------------------------------------------------
+Name                           Type        Size  Value                                                                
+----------------------------------------------------------------------------------------------------------------------
+req                            apb_packet  -     @4042                                                                
+  prdata                       integral    32    'h0xxxxxxxx                                                          
+  pwdata                       integral    32    'h414851ff                                                           
+  paddr                        integral    8     'ha1                                                                 
+  pwrite                       integral    1     'h1                                                                  
+  psel                         integral    2     'h0                                                                  
+  penable                      integral    1     'h1                                                                  
+  begin_time                   time        64    190                                                                  
+  depth                        int         32    'd3                                                                  
+  parent sequence (name)       string      7     act_pkt                                                              
+  parent sequence (full name)  string      69    uvm_test_top.tb.master_uvc.agent.sequencer.apb_exhaustive_seq.act_pkt
+  sequencer                    string      42    uvm_test_top.tb.master_uvc.agent.sequencer                           
+----------------------------------------------------------------------------------------------------------------------
+
+UVM_INFO ../sv/apb_master_monitor.sv(87) @ 210: uvm_test_top.tb.master_uvc.agent.monitor [apb_monitor] Receiving this packet to DUT:
+----------------------------------------
+Name       Type        Size  Value      
+----------------------------------------
+item       apb_packet  -     @4052      
+  prdata   integral    32    'h0xxxxxxxx
+  pwdata   integral    32    'hd4dc3f77 
+  paddr    integral    8     'he3       
+  pwrite   integral    1     'h1        
+  psel     integral    2     'h1        
+  penable  integral    1     'h0        
+----------------------------------------
+
+UVM_INFO ../sv/apb_master_sequence.sv(35) @ 210: uvm_test_top.tb.master_uvc.agent.sequencer@@apb_exhaustive_seq [apb_exhaustive_seq] drop objection
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_objection.svh(1245) @ 210: reporter [TEST_DONE] All end-of-test objections have been dropped. Calling stop tasks
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_objection.svh(1268) @ 210: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   90
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[AGENT_CLASS]     4
+[DRIVER_CLASS]     4
+[ENV_CLASS]     4
+[MONITOR_CLASS]     4
+[PHASESEQ]    13
+[RNTST]     1
+[SEQUENCER_CLASS]     3
+[SEQUENCE_CLASS]     2
+[TEST_DONE]     2
+[TEST_SEQUENCE_CLASS]    10
+[Test Class]     2
+[Testbench_class]     1
+[UVMTOP]     1
+[apb_active_sequence]    10
+[apb_driver]    11
+[apb_exhaustive_seq]     3
+[apb_monitor]    11
+[apb_tb]     4
+Simulation complete via $finish(1) at time 210 NS + 55
+/home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_root.svh:457     $finish;
+xcelium> exit
+TOOL:	xrun(64)	23.09-s006: Exiting on Dec 09, 2024 at 05:05:26 PKT  (total: 00:00:02)

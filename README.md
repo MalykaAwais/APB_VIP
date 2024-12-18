@@ -18,7 +18,7 @@ This project focuses on the verification of the Advanced Peripheral Bus (APB) us
 ---
 
 ## Problem Statement
-The project targets the verification of master and slave Universal Verification Components (UVCs) for the AMBA APB protocol. The challenge is to confirm adherence to the protocol amidst increasing complexity in designs.
+The project targets the verification of master and slave Universal Verification Components (UVCs) for the AMBA APB protocol. The challenge is to confirm adherence to the protocol amidst increasing complexity in designs, in the absence of ACTUAL RTL DESIGN UNDER TEST (DUT). There is no Design and we are performing handshaking between two UVCs. Master and Slave UVC.
 
 ## Aims and Objectives
 - **Aim:** Create a comprehensive verification environment for the AMBA APB protocol.

@@ -1,12 +1,12 @@
 # APB_VIP
 ## Verification of APB VIP
 
----
+
 
 ## Overview
 This project focuses on the verification of the Advanced Peripheral Bus (APB) using the Universal Verification Methodology (UVM). It aims to ensure effective communication between low-bandwidth peripherals in complex System-on-Chip (SoC) architectures.
 
----
+
 
 ## Team Members
 - Malyka Awais (Team Leader)  

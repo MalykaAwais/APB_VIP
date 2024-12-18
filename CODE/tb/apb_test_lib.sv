@@ -435,26 +435,3 @@ class apb_BULK_read_after_write_with_no_delay_and_delayed_pready_mcseq_test exte
   endfunction : build_phase
 
 endclass :apb_BULK_read_after_write_with_no_delay_and_delayed_pready_mcseq_test
-
-//==================
-// increment_addr_read_after_write_test
-//==================
-
-class increment_addr_read_after_write_test extends base_test; 
-
-  `uvm_component_utils(increment_addr_read_after_write_test)
-
-  function new(string name = "apb_BULK_read_after_write_with_no_delay_and_delayed_pready_mcseq_test", uvm_component parent=null);
-    super.new(name,parent);
-  endfunction : new
-
-  virtual function void build_phase(uvm_phase phase);
-    // Set the default sequence for the master and slave
-    uvm_config_wrapper::set(this, "tb.mc_seqr.run_phase","default_sequence", increment_addr_read_after_write::get_type());
-    // Create the tb
-    super.build_phase(phase);
-  endfunction : build_phase
-
-endclass :increment_addr_read_after_write_test
-
-

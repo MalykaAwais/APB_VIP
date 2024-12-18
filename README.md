@@ -6,7 +6,7 @@ This project focuses on the verification of the Advanced Peripheral Bus (APB) us
 
 ---
 
-<h2 align="left">👩‍💻 Team Members</h2>
+<h2 align="left">Team Members</h2>
 
 - **Malyka Awais** (Team Leader)  
 
@@ -43,7 +43,7 @@ The verification plan consists of a series of tests, including:
 
 ---
 
-<h2 align="left">🔧 Technologies & Tools</h2>
+<h2 align="left">Technologies & Tools</h2>
 
 ![SystemVerilog](https://img.shields.io/badge/-SystemVerilog-3776AB?style=flat-square&logo=systemverilog&logoColor=white)
 ![UVM](https://img.shields.io/badge/-UVM-3776AB?style=flat-square&logo=uvm&logoColor=white)
@@ -60,10 +60,4 @@ All assertions passed successfully. The coverage report indicates:
 ## Conclusion
 The project successfully verified the master and slave UVCs of the APB protocol, demonstrating a flexible and reusable VIP design. The integration of optional features enhances the capabilities of the verification environment.
 
----
 
-<h2 align="left">📜 License</h2>
-
-This project is licensed under the **NCDC (NUST Chip Design Centre)**. Any use of this code must be in accordance with the license provided by NCDC.
-
----

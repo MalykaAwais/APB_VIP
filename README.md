@@ -5,14 +5,9 @@
 This project focuses on the verification of the Advanced Peripheral Bus (APB) using the Universal Verification Methodology (UVM). It aims to ensure effective communication between low-bandwidth peripherals in complex System-on-Chip (SoC) architectures.
 
 ## Table of Contents
-- [Motivation](#motivation)
 - [Problem Statement](#problem-statement)
 - [Aims and Objectives](#aims-and-objectives)
-- [UVM Framework](#uvm-framework)
-- [Testing Methodologies](#testing-methodologies)
 - [Verification Plan](#verification-plan)
-- [Development of UVCs](#development-of-uvcs)
-- [Assertions and Coverage](#assertions-and-coverage)
 - [Results](#results)
 - [Conclusion](#conclusion)
 

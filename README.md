@@ -34,10 +34,10 @@ The verification plan consists of a series of tests, including:
 2. Write Test
 3. Read Test
 4. Read After Write
-5. Idle Cycle Insertion
-6. Address Misalignment
-7. Data Corruption Test
-8. Burst Transfers
+5. Idle Cycle Insertion (Slave wait)
+6. Slave no wait test
+7. Burst Transfers (APB has to handshake each time because it is not burst supported by default like AXI)
+8. Read and write on same address test
 
 ---
 
